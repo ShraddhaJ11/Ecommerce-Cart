@@ -7,7 +7,7 @@ export default function App() {
   const [items, setItems] = useState([
     { id: 1, name: "Shirt", price: 500 },
     { id: 2, name: "Laptop", price: 100500 },
-    { id: 3, name: "Iphone", price: 90000 }
+    { id: 3, name: "Iphone", price: 90000 },
   ]);
 
   const dispatch = useDispatch();
