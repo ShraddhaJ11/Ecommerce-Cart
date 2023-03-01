@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 
 import App from "./App";
+import CartWithLocalStorage from "./CartWithLocalStorage";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
@@ -12,6 +13,7 @@ root.render(
   <StrictMode>
     <Provider store={store}>
       <App />
+      <CartWithLocalStorage />
     </Provider>
   </StrictMode>
 );
